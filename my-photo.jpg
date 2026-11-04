@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubel Siddiqui | Founder, Entrepreneur & Brand Creator</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f4f6f8',
+                            100: '#e5e9ee',
+                            500: '#0f172a',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="#" class="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
+                    RUBEL SIDDIQUI<span class="text-brand-600">.</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide uppercase">
+                    <a href="#about" class="text-slate-300 hover:text-brand-600 transition-colors">Vision & Leadership</a>
+                    <a href="#ventures" class="text-slate-300 hover:text-brand-600 transition-colors">Ventures</a>
+                    <a href="#innovations" class="text-slate-300 hover:text-brand-600 transition-colors">Innovations</a>
+                    <a href="#brand-building" class="text-slate-300 hover:text-brand-600 transition-colors">Brand Strategy</a>
+                    <a href="#contact" class="text-slate-300 hover:text-brand-600 transition-colors">Contact</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-full shadow-lg shadow-brand-600/20 hover:shadow-brand-600/40 transition-all duration-300">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="p-2 text-slate-300 hover:text-white focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 pt-4 pb-6 space-y-4">
+            <a href="#about" class="block text-slate-300 hover:text-brand-600 font-medium py-1">Vision & Leadership</a>
+            <a href="#ventures" class="block text-slate-300 hover:text-brand-600 font-medium py-1">Ventures</a>
+            <a href="#innovations" class="block text-slate-300 hover:text-brand-600 font-medium py-1">Innovations</a>
+            <a href="#brand-building" class="block text-slate-300 hover:text-brand-600 font-medium py-1">Brand Strategy</a>
+            <a href="#contact" class="block text-slate-300 hover:text-brand-600 font-medium py-1">Contact</a>
+            <a href="#contact" class="inline-block w-full text-center bg-brand-600 text-white font-semibold px-4 py-2.5 rounded-xl">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 sm:pt-44 sm:pb-32 overflow-hidden relative">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(2,132,199,0.15),transparent_50%)] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left Content -->
+                <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                    <div class="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-brand-600/10 text-brand-600 border border-brand-600/20">
+                        <span class="w-2 h-2 rounded-full bg-brand-600 mr-2.5 animate-ping"></span> Entrepreneur • Founder • Brand Creator
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight">
+                        Hi, I'm Rubel Siddiqui.<br>
+                        <span class="bg-gradient-to-r from-brand-600 via-sky-400 to-indigo-400 bg-clip-text text-transparent">Building Future Brands</span>
+                    </h1>
+                    
+                    <p class="text-lg sm:text-xl text-slate-400 max-w-2xl leading-relaxed mx-auto lg:mx-0">
+                        Driving high-impact business transformation, pioneering market innovations, and sculpting world-class brand identities built for scale and growth.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+                        <a href="#ventures" class="bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white text-center font-bold px-8 py-4 rounded-xl shadow-lg shadow-brand-600/25 transition-all">
+                            Explore Ventures <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                        </a>
+                        <a href="#contact" class="bg-slate-900 hover:bg-slate-800 text-slate-200 text-center font-bold px-8 py-4 rounded-xl border border-slate-800 transition-all">
+                            Initiate Contact
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right Image -->
+                <div class="lg:col-span-5 flex justify-center relative">
+                    <div class="relative w-72 h-80 sm:w-96 sm:h-[450px] rounded-3xl bg-slate-900 border border-slate-800 p-3 shadow-2xl">
+                        <div class="w-full h-full rounded-2xl overflow-hidden relative">
+                            <!-- ছবির ফাইলের নাম বা অনলাইন লিংক নিচে বসবে -->
+                            <img 
+                                src="your-image-name.jpg" 
+                                alt="Rubel Siddiqui" 
+                                class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
+                                onerror="this.src='https://placehold.co/600x800/0f172a/ffffff?text=Rubel+Siddiqui'"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+                            <div class="absolute bottom-6 left-6 right-6">
+                                <p class="text-sm font-semibold text-brand-600 uppercase tracking-widest">Leadership Vision</p>
+                                <p class="text-white text-base font-medium mt-1">"Innovation is turning visionary ideas into real business value."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="about" class="py-24 bg-slate-900/50 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2">Core Competencies</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Leadership & Strategic Expertise</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-600/10 text-brand-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-chess-king"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Executive Leadership</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Steering organizations through growth phases and executing robust long-term business strategies.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800">
+                    <div class="w-14 h-14 rounded-2xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Venture Innovation</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Identifying strategic market opportunities and scaling resilient business models from scratch.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Brand Creation</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Crafting compelling brand identities and market positioning that build enduring corporate equity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2">Get In Touch</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Let's Discuss Opportunities</h3>
+            </div>
+
+            <div class="max-w-xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-8">
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-xs font-semibold uppercase text-slate-400 mb-2">Name</label>
+                        <input type="text" id="name" required class="w-full px-4 py-3.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-xs font-semibold uppercase text-slate-400 mb-2">Email</label>
+                        <input type="email" id="email" required class="w-full px-4 py-3.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm" placeholder="your@email.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-xs font-semibold uppercase text-slate-400 mb-2">Message</label>
+                        <textarea id="message" rows="4" required class="w-full px-4 py-3.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-4 rounded-xl">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-10 border-t border-slate-900 text-center text-xs">
+        &copy; <span id="year"></span> RUBEL SIDDIQUI. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
